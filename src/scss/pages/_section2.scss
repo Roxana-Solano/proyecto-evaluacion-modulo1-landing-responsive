@@ -1,0 +1,88 @@
+
+.rectangle-2{
+    background-color: #eff9ff;
+    
+}
+.reasons{
+    font-family: 'Roboto Slab';
+    font-size: 25px;
+    font-weight: bold;
+    line-height: normal;
+    text-align: center;
+    color: #000000;
+    padding-top: 50px;
+
+}
+.container-three{ 
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.box-purchase{
+    h3{
+        font-family: "Roboto Slab";
+        font-size: 18px;
+    }
+    p{
+        font-family: 'Roboto';
+        font-size: 18px;
+        padding: 10px 20px 0px 20px;
+        margin: 0px;
+    }
+}
+
+.more{
+    font-family: "Roboto";
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+    padding-bottom: 50px;
+    .more-button{
+        padding-block: 2%;
+        background-color: #f26002;
+        color: white;
+        border: 0px;
+        border-radius: 24px;
+        padding: 13px 28px 11px 28px;
+        font-size: 20px;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+        text-decoration: none;
+    }
+    :hover{
+        transform: scale(1.1);
+        background-color: lightseagreen;
+    }
+}
+.arrow{
+    position: relative;
+    height: 0px;
+    button{
+        position: absolute;
+        left: 50%;
+        top: -18px;
+        transform: translateX(-50%);
+        background-color: white;
+        border-radius: 69%;
+        width: 40px;
+        height: 40px;
+        border: 0px;
+    }
+    img{
+        margin-left: 50%;
+        width: 20px;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (min-width: 481px){
+    .container-three{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}
+
+
+
+
+  

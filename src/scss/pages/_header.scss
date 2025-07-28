@@ -1,0 +1,16 @@
+header{
+    width: 44px;
+    height: 0px;
+    position: sticky;
+    z-index: 100;
+    top: 0px;
+    .menu-img{
+        width: 15px;
+        height: 44px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .menu{
+        background-color: #0271bc;
+    }
+}

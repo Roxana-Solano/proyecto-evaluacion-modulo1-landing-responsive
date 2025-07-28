@@ -1,0 +1,49 @@
+.box{
+    background-image: url(../images/cover.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 500px;
+    padding: 25px;
+
+}
+.containerbox{
+    display: flex;
+    flex-direction: column;
+    align-items: anchor-center;
+    background-size: contain;
+
+}
+
+.text{
+    margin-bottom: 9%;
+    h1{
+        font-size: 42px;
+        color: white;
+        font-family: "Roboto Slab", sans-serif;
+        font-style: normal;
+        text-align: center;
+    }
+    h3{
+        font-size: 16px;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+    }
+}
+.symbol{
+    background-color: white;
+    border-radius: 50%;
+    border: 0px;
+    width: 40px;
+    height: 40px;
+    img{
+        margin-top: 13px;
+        margin-left: 50%;
+        width: 25px;
+        transform: translateX(-50%);
+    }
+}
