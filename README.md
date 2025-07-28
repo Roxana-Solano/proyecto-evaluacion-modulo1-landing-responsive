@@ -1,132 +1,91 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
-Roxana: [URL Github Page](http://beta.adalab.es/modulo-1-evaluacion-final-Roxana-Solano/)
+# 🧪 Evaluación Final - Módulo 1 | Promo 53 - Adalab
 
-# Adalab web starter kit
+Este proyecto es el resultado de la evaluación final del Módulo 1 del bootcamp de desarrollo web de Adalab. Consiste en la maquetación de una landing page responsive basada en un diseño proporcionado en Zeplin, utilizando HTML, Sass y buenas prácticas de CSS moderno.
 
-Ahoy! Este es nuestro Starter Kit creado en **node y vite**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
+---
 
-Este Kit incluye un motor de plantillas HTML, el preprocesador SASS y un servidor local y muchas cosas más. El Kit nos ayuda a trabajar más cómodamente, nos automatiza tareas.
+## 🚀 Objetivos principales
 
-En el Kit hay 3 tipos de ficheros y carpetas:
+- Crear una página web a partir de un diseño.
+- Usar etiquetas semánticas.
+- Utilizar Flexbox, Grid y media queries para lograr un diseño responsive.
+- Aplicar Sass con estructuras organizadas (partials, variables, anidación).
+- Implementar transiciones y animaciones en elementos clave.
 
-- Los ficheros que están sueltos en la raíz del repositorio, como vite.config.js, package.json... Son la configuración del proyecto y no necesitamos modificarlos (excepto este README.md, para describir tu proyecto).
-- La carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
-- La carpeta `public/`, que tiene fichero estáticos como imágenes, fuentes, favicon, librerías de JavaScript antiguas (jQuery, ...)
-- Y la carpeta `docs/`, que es generada automáticamente cuando arrancamos el proyecto. El Kit lee los ficheros que hay dentro de `src/` y `public/`, los procesa y los genera dentro de `public/` y `docs/`.
+---
 
-## Guía de inicio rápido
+## 📸 Vista previa
 
-> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/) con una versión superior a la 14 para trabajar con este Starter Kit:
+![Captura de la landing page](./public/images/my_page.png)
 
-### Pasos a seguir cada vez que queremos arrancar un proyecto desde cero:
+---
 
-1. **Crea tu propio repositorio.**
-1. Descarga este **Starter kit desde GitHub**.
-   - No recomendamos que clones este repo ya que no podrás añadir commits.
-1. **Copia todos los ficheros** de este Starter kit en la carpeta raíz de tu repositorio.
-   - Recuerda que debes copiar **también los ficheros ocultos** que comienzan por un punto.
-   - Si has decidido clonar este repo, no debes copiar la carpeta `.git`. Si lo haces estarás machacando tu propio repositorio.
-1. **Abre una terminal** en la carpeta raíz de tu repositorio.
-1. **Instala las dependencias** locales ejecutando en la terminal el comando:
+## 🛠️ Tecnologías utilizadas
 
-```bash
-npm install
-```
+- HTML5
+- Sass (starter kit de Adalab)
+- Flexbox
+- CSS Grid
+- Media Queries
+- Git y GitHub
 
-### Pasos para arrancar el proyecto:
+---
 
-Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+## 🎯 Funcionalidades e interacciones
 
-```bash
-npm run dev
-```
+- Menú hamburguesa fijo y con enlace a Adalab.
+- Hero principal con botón que enlaza a la sección "3 Reasons To Purchase".
+- Sección con CSS Grid adaptativa en todas las resoluciones.
+- Footer con enlaces funcionales y botón con animación que vuelve al inicio.
+- Transiciones suaves en los botones con `:hover`.
 
-Este comando:
+---
 
-- **Abre una ventana de Chrome y muestra tu página web**, al igual que hace el plugin de VS Code Live Server (Go live).
-- También **observa** todos los ficheros que hay dentro de la carpeta `src/`, para que cada vez que modifiques un fichero **refresca tu página en Chrome**.
-- También **procesa los ficheros** HTML, SASS / CSS y JS. Por ejemplo:
-  - Convierte los ficheros SASS en CSS.
-  - Combina los diferentes ficheros de HTML y los agrupa en uno o varios ficheros HTML.
+## 📁 Estructura del proyecto
 
-Después de ejecutar `npm run dev` ya puedes empezar a editar todos los ficheros que están dentro de la carpeta `src/` y programar cómodamente.
+El proyecto sigue la estructura proporcionada por el starter kit de Adalab. Incluye carpetas para:
 
-### Pasos para publicar el proyecto en GitHub Pages:
+- `scss/`: archivos Sass organizados en parciales.
+- `html/`: estructura HTML semántica.
+- `assets/`: imágenes e iconos proporcionados.
+- `docs/`: carpeta para la publicación en GitHub Pages.
 
-Para generar tu página para producción ejecuta el comando:
+---
 
-```bash
-npm run build
-```
+## 🧪 Estado del proyecto
 
-Y a continuación:
+✅ **Finalizado**  
+📦 Publicado en GitHub Pages → [Ver demo](https://roxana-solano.github.io/ejercicio-modulo1-roxana/#reason-to-purchase)
 
-1. Sube a tu repo la carpeta `docs/` que se te acaba de generar.
-1. Entra en la pestaña `settings` de tu repo.
-1. Y en el apartado de GitHub Pages activa la opción **master branch /docs folder**.
-1. Y ya estaría!!!
+---
 
-Además, los comandos:
+## 📌 Enlace al diseño original
 
-```bash
-npm run push-docs
-```
+- [Diseño en Zeplin](https://app.zeplin.io/project/633d72747ae0b42878ea10a2)
 
-o
+---
 
-```bash
-npm run deploy
-```
+## 📚 Aprendizajes clave
 
-son un atajo que nos genera la versión de producción y hace push de la carpeta `docs/` del tirón. Te recomendamos ver el fichero `package.json` para aprender cómo funciona.
+- Cómo aplicar Flexbox y Grid en distintos contextos.
+- Organización y reutilización de código Sass.
+- Aplicación de media queries para crear diseños responsive.
+- Enlaces internos y externos dentro de una misma página.
+- Uso de `transition` y `transform` para interacciones suaves.
 
-<!--
-## Flujo de archivos con Gulp
+---
 
-Estas tareas de Gulp producen el siguiente flujo de archivos:
+## 📅 Entrega
 
-![Gulp flow](./gulp-flow.png)
+**Fecha límite:** Viernes 18 de abril a las 23:59  
+**Estado:** Evaluación entregada correctamente y publicada en GitHub Pages
 
-## `gulpfile.js` y `config.json`
+---
 
-Nuestro **gulpfile.js** usa el fichero `config.json` de configuración con las rutas de los archivos a generar / observar.
+## 🙋‍♀️ Autoría
 
-De esta manera separarmos las acciones que están en `gulpfile.js` de la configuración de las acciones que están en `config.json`.
--->
+Realizado por **Roxana Solano** como parte del bootcamp de Adalab — Promo 53.
 
-## Estructura de carpetas
-
-La estructura de carpetas tiene esta pinta:
-
-```
-src
- ├─ api // los ficheros de esta carpeta se copian en public/api/
- |  └─ data.json
- ├─ images
- |  └─ logo.jpg
- ├─ js // los ficheros de esta carpeta se concatenan en el fichero main.js y este se guarda en public/main.js
- |  ├─ main.js
- |  └─ events.js
- ├─ scss
- |  ├─ components
- |  ├─ core
- |  ├─ layout
- |  └─ pages
- └─ html
-    └─ partials
-```
-
-> **NOTA:** Los partials de HTML y SASS del proyecto son orientativos. Te recomendamos usar los que quieras, y borrar los que no uses.
-
-<!--
-## Vídeotutoriales del Starter kit
-
-- [Qué es, trabajar con la versión de desarrollo y rutas relativas](https://www.youtube.com/watch?v=XwvhXvBijos)
-- [Migración de un proyecto, trabajar con la versión de producción y GitHub Pages](https://www.youtube.com/watch?v=qqGClcgt9Uc)
-- [Motor de plantillas](https://www.youtube.com/watch?v=4GwXOJ045Zg)
--->
-
-## Falta algo?
-
-Echas de menos que el kit haga algo en concreto? Pidelo sin problema a través de las issues o si te animas a mejorarlo mándanos un PR :)
+---
