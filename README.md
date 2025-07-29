@@ -22,6 +22,43 @@ Este proyecto es el resultado de la evaluación final del Módulo 1 del bootcamp
 
 ---
 
+## ⚙️ Cómo instalar y ejecutar el proyecto
+
+Este proyecto utiliza [Vite](https://vitejs.dev/) y el starter kit de Adalab para facilitar el desarrollo.
+
+### 1. Clonar el repositorio
+
+git clone (https://github.com/Roxana-Solano/proyecto-evaluacion-modulo1-landing-responsive.git)
+cd nombre-del-repo
+
+### 2. Instalar las dependencias
+
+npm install
+
+### 3. Arrancar el servidor desarrollo
+
+npm run dev
+
+### 4. Crear una versión lista para publicar
+
+npm run build
+
+### 5. Publicar en GitHub page (opcional)
+
+npm run deploy
+
+---
+
+## 🔍 Requisitos:
+
+Tener Node.js instalado.
+
+Tener Git configurado.
+
+Este proyecto se basa en el adalab-web-starter-kit, adaptado para esta evaluación.
+
+---
+
 ## 🛠️ Tecnologías utilizadas
 
 - HTML5
